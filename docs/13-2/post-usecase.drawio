@@ -1,0 +1,57 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="ページ-1" id="U-mi0eEFjq3DnAfFuZrM">
+    <mxGraphModel dx="772" dy="1136" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LCInh44Zx6VZfEr3_13R-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelPerimeter=1;" value="訪問者&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="80" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="LCInh44Zx6VZfEr3_13R-6" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;labelPerimeter=1;" value="投稿アプリ&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="420" width="420" x="210" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="LCInh44Zx6VZfEr3_13R-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="ユーザー登録する&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="164" x="332" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="LCInh44Zx6VZfEr3_13R-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="ログインする&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="156" x="340" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="LCInh44Zx6VZfEr3_13R-23" edge="1" parent="1" source="LCInh44Zx6VZfEr3_13R-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LCInh44Zx6VZfEr3_13R-10" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;br&gt;&lt;div&gt;ログアウトする&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="150" x="340" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="LCInh44Zx6VZfEr3_13R-12" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="投稿の一覧を見る" vertex="1">
+          <mxGeometry height="40" width="170" x="332" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="LCInh44Zx6VZfEr3_13R-13" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="投稿を編集する&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="156" x="340" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="LCInh44Zx6VZfEr3_13R-25" edge="1" parent="1" source="LCInh44Zx6VZfEr3_13R-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="LCInh44Zx6VZfEr3_13R-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LCInh44Zx6VZfEr3_13R-14" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="投稿を削除する" vertex="1">
+          <mxGeometry height="40" width="170" x="332" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="LCInh44Zx6VZfEr3_13R-15" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelPerimeter=1;" value="Actor" vertex="1">
+          <mxGeometry height="60" width="30" x="700" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="LCInh44Zx6VZfEr3_13R-18" edge="1" parent="1" source="LCInh44Zx6VZfEr3_13R-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.11;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;labelPadding=0 4;endArrow=classic;endFill=1;" target="LCInh44Zx6VZfEr3_13R-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LCInh44Zx6VZfEr3_13R-21" edge="1" parent="1" source="LCInh44Zx6VZfEr3_13R-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.064;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="LCInh44Zx6VZfEr3_13R-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LCInh44Zx6VZfEr3_13R-22" edge="1" parent="1" source="LCInh44Zx6VZfEr3_13R-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="LCInh44Zx6VZfEr3_13R-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LCInh44Zx6VZfEr3_13R-24" edge="1" parent="1" source="LCInh44Zx6VZfEr3_13R-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="LCInh44Zx6VZfEr3_13R-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
