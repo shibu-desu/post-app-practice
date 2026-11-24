@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="ページ-1" id="FHiSSQCbwL0GgNyYyHq0">
+    <mxGraphModel dx="764" dy="1139" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="of75gXVVnPhZ6nTe_YCh-2" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="経費を申請する" vertex="1">
+          <mxGeometry height="740" width="520" x="130" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="of75gXVVnPhZ6nTe_YCh-4" edge="1" parent="of75gXVVnPhZ6nTe_YCh-2" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint y="380" as="sourcePoint" />
+            <mxPoint x="520" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="of75gXVVnPhZ6nTe_YCh-6" parent="of75gXVVnPhZ6nTe_YCh-2" style="rounded=0;whiteSpace=wrap;html=1;" value="使った日" vertex="1">
+          <mxGeometry height="60" width="120" x="20" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="of75gXVVnPhZ6nTe_YCh-7" parent="of75gXVVnPhZ6nTe_YCh-2" style="rounded=0;whiteSpace=wrap;html=1;" value="金額" vertex="1">
+          <mxGeometry height="60" width="120" x="20" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="of75gXVVnPhZ6nTe_YCh-8" parent="of75gXVVnPhZ6nTe_YCh-2" style="rounded=0;whiteSpace=wrap;html=1;" value="費目" vertex="1">
+          <mxGeometry height="60" width="120" x="20" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="of75gXVVnPhZ6nTe_YCh-9" parent="of75gXVVnPhZ6nTe_YCh-2" style="rounded=0;whiteSpace=wrap;html=1;" value="用途" vertex="1">
+          <mxGeometry height="60" width="120" x="20" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="of75gXVVnPhZ6nTe_YCh-10" parent="of75gXVVnPhZ6nTe_YCh-2" style="rounded=0;whiteSpace=wrap;html=1;" value="年/月/日" vertex="1">
+          <mxGeometry height="60" width="310" x="170" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="of75gXVVnPhZ6nTe_YCh-18" parent="of75gXVVnPhZ6nTe_YCh-2" style="rounded=0;whiteSpace=wrap;html=1;" value="交通費/ 書籍代/会議第/その他" vertex="1">
+          <mxGeometry height="60" width="310" x="169" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="of75gXVVnPhZ6nTe_YCh-19" parent="of75gXVVnPhZ6nTe_YCh-2" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="310" x="169" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="of75gXVVnPhZ6nTe_YCh-20" parent="of75gXVVnPhZ6nTe_YCh-2" style="rounded=0;whiteSpace=wrap;html=1;" value="半角の数字" vertex="1">
+          <mxGeometry height="60" width="241" x="169" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="of75gXVVnPhZ6nTe_YCh-21" parent="of75gXVVnPhZ6nTe_YCh-2" style="rounded=0;whiteSpace=wrap;html=1;" value="円" vertex="1">
+          <mxGeometry height="60" width="50" x="430" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="of75gXVVnPhZ6nTe_YCh-22" parent="of75gXVVnPhZ6nTe_YCh-2" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="200" width="460" x="20" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="of75gXVVnPhZ6nTe_YCh-23" parent="of75gXVVnPhZ6nTe_YCh-2" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="差し戻しの理由" vertex="1">
+          <mxGeometry height="30" width="60" x="20" y="395" as="geometry" />
+        </mxCell>
+        <mxCell id="of75gXVVnPhZ6nTe_YCh-24" parent="of75gXVVnPhZ6nTe_YCh-2" style="rounded=0;whiteSpace=wrap;html=1;" value="提出する" vertex="1">
+          <mxGeometry height="60" width="209" x="20" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="of75gXVVnPhZ6nTe_YCh-25" parent="of75gXVVnPhZ6nTe_YCh-2" style="rounded=0;whiteSpace=wrap;html=1;" value="やめる" vertex="1">
+          <mxGeometry height="60" width="209" x="270" y="640" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
