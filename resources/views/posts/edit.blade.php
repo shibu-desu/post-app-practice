@@ -28,6 +28,8 @@
         .btn-secondary:hover { background: #F7F8F9; }
         .btn:focus-visible { outline: 2px solid #E8792B; outline-offset: 2px; }
         .error { color: #D6402C; font-size: 0.83rem; margin-top: 0.3rem; }
+        .counter { font-size: 0.8rem; color: #5B6570; margin-top: 0.3rem; text-align: right; }
+        .counter.over { color: #D6402C; }
     </style>
 </head>
 <body>
@@ -67,6 +69,7 @@
                 <div class="form-group">
                     <label for="content">本文</label>
                     <textarea id="content" name="content" required>{{ old('content', $post->content) }}</textarea>
+                    <p class="counter" id="content-counter">残り140字</p>
                     @error('content')
                         <p class="error">{{ $message }}</p>
                     @enderror
@@ -79,5 +82,19 @@
             </form>
         </main>
     </div>
+    <script>
+    (function () {
+        const textarea = document.getElementById('content');
+        const counter  = document.getElementById('content-counter');
+        const max = 140;
+        function update() {
+            const remaining = max - textarea.value.length;
+            counter.textContent = '残り' + remaining + '字';
+            counter.classList.toggle('over', remaining < 0);
+        }
+        textarea.addEventListener('input', update);
+        update();
+    })();
+    </script>
 </body>
 </html>
